@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="20" failed="0" total="20" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95" started-at="2018-09-02T04:48:42Z" finished-at="2018-09-02T04:48:42Z">
+    <groups>
+      <group name="Resgression">
+        <method signature="Login_TestCase.validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="validUsername_Password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Resgression -->
+      <group name="Regression">
+        <method signature="Login_TestCase.Check_PlaceHolder_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Check_PlaceHolder_Password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.Check_PlaceHolder_Username()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Check_PlaceHolder_Username" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.Verify_Url()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Verify_Url" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.blank_username_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="blank_username_password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.check_Button_color()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="check_Button_color" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.check_Links()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="check_Links" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.invalidusername_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="invalidusername_password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.loginsesion()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="loginsesion" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="verifyApplicationTitle" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.verify_Title()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="verify_Title" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Login_TestCase.Verify_Url_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Verify_Url_DashBoard" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.heading_Dashboard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="heading_Dashboard" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="verifyApplicationTitle_DashBoard" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Smoke -->
+      <group name="Unit">
+        <method signature="Login_TestCase.Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Click_On_AddUser_Btn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Fill_Form" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.clickOn_OperatorBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="clickOn_OperatorBtn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="click_OnUser" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="getTableData" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="logOutBtn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Unit -->
+    </groups>
+    <test name="Test" duration-ms="95" started-at="2018-09-02T04:48:42Z" finished-at="2018-09-02T04:48:42Z">
+      <class name="TestNgDemo.TestNgMaven.Login_TestCase">
+        <test-method status="FAIL" signature="setup_Browser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="setup_Browser" is-config="true" duration-ms="0" started-at="2018-09-02T10:18:41Z" finished-at="2018-09-02T10:18:41Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/http/config/RegistryBuilder]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/http/config/RegistryBuilder
+	at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:69)
+	at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:57)
+	at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:60)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:252)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:229)
+	at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:96)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:70)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:58)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:87)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at TestNgDemo.TestNgMaven.Login_TestCase.setup_Browser(Login_TestCase.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.apache.http.config.RegistryBuilder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="SKIP" signature="Verify_Url()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Verify_Url" duration-ms="3" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url -->
+        <test-method status="SKIP" signature="verifyApplicationTitle()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="verifyApplicationTitle" duration-ms="3" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="SKIP" signature="verify_Title()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="verify_Title" duration-ms="1" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Title -->
+        <test-method status="SKIP" signature="loginsesion()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="loginsesion" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsesion -->
+        <test-method status="SKIP" signature="Check_PlaceHolder_Username()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Check_PlaceHolder_Username" duration-ms="1" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Username -->
+        <test-method status="SKIP" signature="Check_PlaceHolder_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Check_PlaceHolder_Password" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Password -->
+        <test-method status="SKIP" signature="check_Button_color()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="check_Button_color" duration-ms="1" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Button_color -->
+        <test-method status="SKIP" signature="check_Links()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="check_Links" duration-ms="4" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links -->
+        <test-method status="SKIP" signature="blank_username_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="blank_username_password" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_username_password -->
+        <test-method status="SKIP" signature="validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="validUsername_Password" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsername_Password -->
+        <test-method status="SKIP" signature="invalidusername_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="invalidusername_password" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidusername_password -->
+        <test-method status="SKIP" signature="Verify_Url_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Verify_Url_DashBoard" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url_DashBoard -->
+        <test-method status="SKIP" signature="verifyApplicationTitle_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="verifyApplicationTitle_DashBoard" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle_DashBoard -->
+        <test-method status="SKIP" signature="heading_Dashboard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="heading_Dashboard" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heading_Dashboard -->
+        <test-method status="SKIP" signature="click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="click_OnUser" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_OnUser -->
+        <test-method status="SKIP" signature="getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="getTableData" duration-ms="1" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableData -->
+        <test-method status="SKIP" signature="Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Click_On_AddUser_Btn" duration-ms="1" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_AddUser_Btn -->
+        <test-method status="SKIP" signature="Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="Fill_Form" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_Form -->
+        <test-method status="SKIP" signature="clickOn_OperatorBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="clickOn_OperatorBtn" duration-ms="3" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_OperatorBtn -->
+        <test-method status="SKIP" signature="logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="logOutBtn" duration-ms="1" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutBtn -->
+        <test-method status="SKIP" signature="close_Browse()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@457e2f02]" name="close_Browse" is-config="true" duration-ms="0" started-at="2018-09-02T10:18:42Z" finished-at="2018-09-02T10:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+      </class> <!-- TestNgDemo.TestNgMaven.Login_TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

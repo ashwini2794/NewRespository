@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">20</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">TestNgDemo.TestNgMaven.Login_TestCase</td><td><a href="#m1"><b>setup_Browser</b> (Smoke) </a></td><td class="numi">1</td><td>1535863721843</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">TestNgDemo.TestNgMaven.Login_TestCase</td><td><a href="#m2"><b>close_Browse</b> (Smoke) </a></td><td class="numi">1</td><td>1535863722928</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="20">TestNgDemo.TestNgMaven.Login_TestCase</td><td><a href="#m3"><b>Verify_Url</b> (Regression) </a></td><td class="numi">1</td><td>1535863722822</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m4"><b>verifyApplicationTitle</b> (Regression) </a></td><td class="numi">1</td><td>1535863722828</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m5"><b>verify_Title</b> (Regression) </a></td><td class="numi">1</td><td>1535863722833</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m6"><b>loginsesion</b> (Regression) </a></td><td class="numi">1</td><td>1535863722835</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>Check_PlaceHolder_Username</b> (Regression) </a></td><td class="numi">1</td><td>1535863722850</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m8"><b>Check_PlaceHolder_Password</b> (Regression) </a></td><td class="numi">1</td><td>1535863722851</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m9"><b>check_Button_color</b> (Regression) </a></td><td class="numi">1</td><td>1535863722854</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m10"><b>check_Links</b> (Regression) </a></td><td class="numi">1</td><td>1535863722855</td><td class="numi">4</td></tr><tr class="skippedodd"><td><a href="#m11"><b>blank_username_password</b> (Regression) </a></td><td class="numi">1</td><td>1535863722859</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m12"><b>invalidusername_password</b> (Regression) </a></td><td class="numi">1</td><td>1535863722859</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m13"><b>validUsername_Password</b> (Resgression) </a></td><td class="numi">1</td><td>1535863722859</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m14"><b>Verify_Url_DashBoard</b> (Smoke) </a></td><td class="numi">1</td><td>1535863722874</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m15"><b>heading_Dashboard</b> (Smoke) </a></td><td class="numi">1</td><td>1535863722874</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m16"><b>verifyApplicationTitle_DashBoard</b> (Smoke) </a></td><td class="numi">1</td><td>1535863722874</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m17"><b>click_OnUser</b> (Unit) </a></td><td class="numi">1</td><td>1535863722890</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m18"><b>getTableData</b> (Unit) </a></td><td class="numi">1</td><td>1535863722893</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m19"><b>Click_On_AddUser_Btn</b> (Unit) </a></td><td class="numi">1</td><td>1535863722895</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m20"><b>Fill_Form</b> (Unit) </a></td><td class="numi">1</td><td>1535863722896</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m21"><b>clickOn_OperatorBtn</b> (Unit) </a></td><td class="numi">1</td><td>1535863722896</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m22"><b>logOutBtn</b> (Unit) </a></td><td class="numi">1</td><td>1535863722899</td><td class="numi">1</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">TestNgDemo.TestNgMaven.Login_TestCase:setup_Browser</h2>
+<div style="padding-left:3em">
+<p>org/apache/http/config/RegistryBuilder</p>
+org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:69)
+<br/>at org.openqa.selenium.remote.internal.HttpClientFactory.&lt;init&gt;(HttpClientFactory.java:57)
+<br/>at org.openqa.selenium.remote.internal.HttpClientFactory.&lt;init&gt;(HttpClientFactory.java:60)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:252)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.&lt;init&gt;(ApacheHttpClient.java:229)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:96)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.&lt;init&gt;(HttpCommandExecutor.java:70)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.&lt;init&gt;(HttpCommandExecutor.java:58)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:87)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+<br/>at TestNgDemo.TestNgMaven.Login_TestCase.setup_Browser(Login_TestCase.java:25)
+<br/>19 lines not shown
+<p>Caused by org.apache.http.config.RegistryBuilder</p>
+java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+<br/>at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:69)
+<br/>at org.openqa.selenium.remote.internal.HttpClientFactory.&lt;init&gt;(HttpClientFactory.java:57)
+<br/>at org.openqa.selenium.remote.internal.HttpClientFactory.&lt;init&gt;(HttpClientFactory.java:60)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:252)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.&lt;init&gt;(ApacheHttpClient.java:229)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:96)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.&lt;init&gt;(HttpCommandExecutor.java:70)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.&lt;init&gt;(HttpCommandExecutor.java:58)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:87)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+<br/>at TestNgDemo.TestNgMaven.Login_TestCase.setup_Browser(Login_TestCase.java:25)
+<br/>19 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">TestNgDemo.TestNgMaven.Login_TestCase:close_Browse</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">TestNgDemo.TestNgMaven.Login_TestCase:verifyApplicationTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">TestNgDemo.TestNgMaven.Login_TestCase:Verify_Url_DashBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">TestNgDemo.TestNgMaven.Login_TestCase:blank_username_password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">TestNgDemo.TestNgMaven.Login_TestCase:verifyApplicationTitle_DashBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">TestNgDemo.TestNgMaven.Login_TestCase:heading_Dashboard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">TestNgDemo.TestNgMaven.Login_TestCase:loginsesion</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">TestNgDemo.TestNgMaven.Login_TestCase:Fill_Form</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">TestNgDemo.TestNgMaven.Login_TestCase:click_OnUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">TestNgDemo.TestNgMaven.Login_TestCase:Verify_Url</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">TestNgDemo.TestNgMaven.Login_TestCase:check_Button_color</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">TestNgDemo.TestNgMaven.Login_TestCase:verify_Title</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">TestNgDemo.TestNgMaven.Login_TestCase:check_Links</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">TestNgDemo.TestNgMaven.Login_TestCase:validUsername_Password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">TestNgDemo.TestNgMaven.Login_TestCase:clickOn_OperatorBtn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">TestNgDemo.TestNgMaven.Login_TestCase:Check_PlaceHolder_Username</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">TestNgDemo.TestNgMaven.Login_TestCase:Click_On_AddUser_Btn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">TestNgDemo.TestNgMaven.Login_TestCase:getTableData</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">TestNgDemo.TestNgMaven.Login_TestCase:logOutBtn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">TestNgDemo.TestNgMaven.Login_TestCase:invalidusername_password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">TestNgDemo.TestNgMaven.Login_TestCase:Check_PlaceHolder_Password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

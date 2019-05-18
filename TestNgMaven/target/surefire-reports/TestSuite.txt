@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 76.606 sec <<< FAILURE!
+Verify_Url_DashBoard(TestNgDemo.TestNgMaven.Login_TestCase)  Time elapsed: 0.037 sec  <<< FAILURE!
+java.lang.AssertionError: expected [file:///D:/AdminLTE/index.html] but found [file:///D:/AdminLTE/pages/examples/dashboard.html]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TestNgDemo.TestNgMaven.Login_TestCase.Verify_Url_DashBoard(Login_TestCase.java:207)
+
+logOutBtn(TestNgDemo.TestNgMaven.Login_TestCase)  Time elapsed: 5.14 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Logout1')]"}
+Command duration or timeout: 5.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41357a2a-9dcd-4405-bf1f-2ac8c50aa2bb
+*** Element info: {Using=xpath, value=//span[contains(text(),'Logout1')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at TestNgDemo.TestNgMaven.Login_TestCase.logOutBtn(Login_TestCase.java:349)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Logout1')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/darsh/AppData/Local/Temp/anonymous5558711799230897170webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/darsh/AppData/Local/Temp/anonymous5558711799230897170webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+
